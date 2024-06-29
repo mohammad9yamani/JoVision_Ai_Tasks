@@ -10,7 +10,7 @@ def extract_text(image_path):
 
 if __name__ == "__main__":
     if len(sys.argv) != 2:
-        print("Usage: python extract_text.py <image_path>")
+        print("Usage: python Task_1.py <image_path>")
         sys.exit(1)
 
     image_path = sys.argv[1]
